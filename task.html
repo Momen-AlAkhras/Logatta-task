@@ -74,7 +74,7 @@
                                 style="font-weight: bold;">LaslesVPN</span>
                             discover intersting featuers from us.</p>
                         <br>
-                        <button class="btn btn-danger">Get Started</button>
+                        <button class="btn btn-danger" id="GetStBtn" onmouseover="ChangeColor()" onmouseout="Revert()">Get Started</button>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp PhotoDiv" data-wow-delay="0.1s">
@@ -168,7 +168,24 @@
 <script>
     function ShowNav() {
         var ActionLinks = document.getElementById("navbarSupportedContent")
-        ActionLinks.style.display = "block"
+        if(ActionLinks.style.display ="none")
+        {
+           ActionLinks.style.display = "block"
+        }
+        else
+        {
+            ActionLinks.style.display="none"
+        }
+    }
+    function ChangeColor()
+    {
+        const btn = document.getElementById("GetStBtn")
+        btn.style.color = "blue"
+    }
+    function Revert()
+    {
+        const btn = document.getElementById("GetStBtn")
+        btn.style.color = "aliceblue"
     }
 </script>
 
