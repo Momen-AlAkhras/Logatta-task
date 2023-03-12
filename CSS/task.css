@@ -1,0 +1,136 @@
+/* Global Font */
+*
+{
+ font-family: 'Rubik', sans-serif;
+}
+.img-fluid
+{
+    transform: scale(1.3);
+}
+/* Sign In/Up Btns Div */
+#buttons
+{
+   text-align: center;
+   margin-left: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+/* Action Links */
+@media only screen and (min-device-width: 1000px){
+#navbarSupportedContent
+{
+    justify-content: center;
+    gap: 40px;
+}
+ul
+{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+}
+/*Get Started Button*/
+.h-100 button
+{
+    background-color: #F53838 !important;
+    border-color: #F53838;
+    border-radius: 10px;
+    width: 200px;
+    padding:10px 40px 10px 40px;
+    box-shadow: 3px 5px 3px  #de6f6f;
+}
+/* Services Section ------------------- */
+ 
+/*Photo Container */
+.PhotoDiv
+{
+ display: flex !important;
+ justify-content: center !important;
+}
+
+#ServicesDiv
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.Services
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.ServicesTXT
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Bold and large Numbers */
+.Services span
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+.Circle
+{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #FFECEC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Circle i
+{
+    font-size: 20px;
+    color: #F53838;
+}
+/* Services Responsive */
+@media only screen and (max-device-width: 720px){
+    .Services
+    {
+        flex-direction: column;
+    }
+}
+/* Features Section ------------------- */
+#FeaturesDiv
+{
+    margin-top: 60px;
+}
+.FeatCircle
+{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #2FAB73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FeatCircle i
+{
+    font-size: 15px;
+    color: aliceblue;
+}
+.FeatServices
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+#FeatServicesDiv
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
